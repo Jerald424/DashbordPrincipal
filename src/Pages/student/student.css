@@ -1,0 +1,17 @@
+.table-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.table-button {
+    padding: 2px !important;
+}
+
+.student-table td {
+    padding: 4px;
+}
+
+.student-table {
+    padding-top: 40px;
+}
