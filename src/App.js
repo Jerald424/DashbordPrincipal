@@ -1,20 +1,21 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom"
-import Header from "./Components/Header/Header";
-import "./app.css"
-import Dashboard from "./Components/Dashboard/Dashboard";
-import Student from "./Components/student/Student";
+import { HashRouter, Routes, Route, Outlet } from "react-router-dom"
+import Header from "./Layout/Header/Header";
+import Layout from "./Layout/Layout";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import Student from "./Pages/student/Student";
 function App() {
   return (
-    <div >
-      <HashRouter >
-        {/* <Header /> */}
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
+    <HashRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route element={<Outlet />}>
           <Route path="/student" element={<Student />} />
-        </Routes>
-      </HashRouter>
-    </div>
+        </Route>
+        {/* <Route path="/student" element={<Student />} /> */}
+      </Routes>
+    </HashRouter>
   );
 }
 

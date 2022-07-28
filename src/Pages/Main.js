@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from './sidebar/Sidebar'
 import StickyBox from "react-sticky-box";
 
+import Sidebar from '../Layout/sidebar/Sidebar'
 
 export default function Main({ children }) {
     return (

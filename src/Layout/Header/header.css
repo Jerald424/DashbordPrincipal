@@ -16,7 +16,6 @@ ul.dropdown-menu.show {
 }
 
 .header-total {
-    position: fixed;
     width: 100%;
     z-index: 9999 !important;
 }
