@@ -8,7 +8,7 @@ function App() {
   return (
     <div >
       <HashRouter >
-        <Header />
+        {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/student" element={<Student />} />

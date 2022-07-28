@@ -1,18 +1,15 @@
 import React from 'react'
 import Main from '../Main'
+import "./student.css"
+import StickyBox from "react-sticky-box"
 
 export default function Student() {
     return (
-        <div>
+        <div style={{ display: 'flex', alignItems: 'flex-start' }}>
             <Main>
-                <h1>hello student</h1>
-                <h1>hello student</h1>
-                <h1>hello student</h1>
-                <h1>hello student</h1>
-                <h1>hello student</h1>
-                <h1>hello student</h1>
-                <h1>hello student</h1>
-                <h1>hello student</h1>
+                <div style={{ border: '3px solid green' }}>
+                    hello
+                </div>
             </Main>
         </div>
     )
