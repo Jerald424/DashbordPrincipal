@@ -1,0 +1,22 @@
+.right-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.dropdown-menu.show {
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
+
+.header-total {
+    position: fixed;
+    width: 100%;
+    z-index: 9999 !important;
+}
