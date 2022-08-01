@@ -10,7 +10,7 @@ export default function CardDetails(props) {
           <div className='card-detail'>
             <div className='count'>
               <h5>{props.totalCount}</h5>
-              <p>count</p>
+              <p>{props.totalHead}</p>
             </div>
             <div className='male-female'>
               <div className='male'>
